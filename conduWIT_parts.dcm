@@ -4,4 +4,16 @@ $CMP SJ1-2503A
 F https://www.cuidevices.com/product/resource/sj1-2503a.pdf
 $ENDCMP
 #
+$CMP SN74LS08N
+D IC GATE AND 4CH 2-INP 14DIP
+K 296-1633-5-ND 74LS
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls08
+$ENDCMP
+#
+$CMP SN74LS32N
+D IC GATE OR 4CH 2-INP 14DIP
+K 296-1658-5-ND 74LS
+F http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls32
+$ENDCMP
+#
 #End Doc Library
