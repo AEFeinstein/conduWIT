@@ -1,3 +1,0 @@
-(sym_lib_table
-  (lib (name conduWIT_parts)(type Legacy)(uri ${KIPRJMOD}/../conduWIT_parts.lib)(options "")(descr ""))
-)
