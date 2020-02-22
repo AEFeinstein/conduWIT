@@ -240,46 +240,50 @@ Wire Notes Line
 Wire Notes Line
 	10700 1000 10700 500 
 $Comp
-L Connector_Generic:Conn_01x10 P3
+L conduWIT_parts:Conn_01x10 J
 U 1 1 56D721E0
 P 10000 1600
-F 0 "P3" H 10000 2150 50  0000 C CNN
-F 1 "Digital" V 10100 1600 50  0000 C CNN
-F 2 "Socket_Arduino_Uno:Socket_Strip_Arduino_1x10" V 10150 1600 20  0000 C CNN
-F 3 "" H 10000 1600 50  0000 C CNN
+F 0 "J" H 10000 2150 50  0000 C CNN
+F 1 "Conn_01x10" V 10100 1600 50  0000 C CNN
+F 2 "conduWIT_parts:Socket_Strip_Arduino_1x10" V 10150 1600 20  0001 C CNN
+F 3 "http://adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 10000 1600 50  0001 C CNN
+F 4 "2057-PH1-10-UA-ND" H 10000 1600 50  0001 C CNN "Digikey"
 	1    10000 1600
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x06 P2
+L conduWIT_parts:Conn_01x06 J
 U 1 1 56D70DD8
 P 9600 2700
-F 0 "P2" H 9600 2300 50  0000 C CNN
-F 1 "Analog" V 9700 2700 50  0000 C CNN
-F 2 "Socket_Arduino_Uno:Socket_Strip_Arduino_1x06" V 9750 2750 20  0000 C CNN
-F 3 "" H 9600 2700 50  0000 C CNN
+F 0 "J" H 9600 2300 50  0000 C CNN
+F 1 "Conn_01x06" V 9700 2700 50  0000 C CNN
+F 2 "conduWIT_parts:Socket_Strip_Arduino_1x06" V 9750 2750 20  0001 C CNN
+F 3 "http://adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 9600 2700 50  0001 C CNN
+F 4 "2057-PH1-06-UA-ND" H 9600 2700 50  0001 C CNN "Digikey"
 	1    9600 2700
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 P4
+L conduWIT_parts:Conn_01x08 J
 U 1 1 56D7164F
 P 10000 2600
-F 0 "P4" H 10000 2100 50  0000 C CNN
-F 1 "Digital" V 10100 2600 50  0000 C CNN
-F 2 "Socket_Arduino_Uno:Socket_Strip_Arduino_1x08" V 10150 2550 20  0000 C CNN
-F 3 "" H 10000 2600 50  0000 C CNN
+F 0 "J" H 10000 2100 50  0000 C CNN
+F 1 "Conn_01x08" V 10100 2600 50  0000 C CNN
+F 2 "conduWIT_parts:Socket_Strip_Arduino_1x08" V 10150 2550 20  0001 C CNN
+F 3 "http://adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 10000 2600 50  0001 C CNN
+F 4 "2057-PH1-08-UA-ND" H 10000 2600 50  0001 C CNN "Digikey"
 	1    10000 2600
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Connector_Generic:Conn_01x08 P1
+L conduWIT_parts:Conn_01x08 J
 U 1 1 56D70129
 P 9600 1900
-F 0 "P1" H 9600 2350 50  0000 C CNN
-F 1 "Power" V 9700 1900 50  0000 C CNN
-F 2 "Socket_Arduino_Uno:Socket_Strip_Arduino_1x08" V 9750 1900 20  0000 C CNN
-F 3 "" H 9600 1900 50  0000 C CNN
+F 0 "J" H 9600 2350 50  0000 C CNN
+F 1 "Conn_01x08" V 9700 1900 50  0000 C CNN
+F 2 "conduWIT_parts:Socket_Strip_Arduino_1x08" V 9750 1900 20  0001 C CNN
+F 3 "http://adam-tech.com/downloader.php?p=PH1-XX-UA.pdf" H 9600 1900 50  0001 C CNN
+F 4 "2057-PH1-08-UA-ND" H 9600 1900 50  0001 C CNN "Digikey"
 	1    9600 1900
 	1    0    0    -1  
 $EndComp

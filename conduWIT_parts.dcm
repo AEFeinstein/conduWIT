@@ -12,6 +12,24 @@ K R res resistor
 F https://www.seielect.com/catalog/sei-rnf_rnmf.pdf
 $ENDCMP
 #
+$CMP Conn_01x06
+D Generic connector, single row, 01x06, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F http://adam-tech.com/downloader.php?p=PH1-XX-UA.pdf
+$ENDCMP
+#
+$CMP Conn_01x08
+D Generic connector, single row, 01x08, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F http://adam-tech.com/downloader.php?p=PH1-XX-UA.pdf
+$ENDCMP
+#
+$CMP Conn_01x10
+D Generic connector, single row, 01x10, script generated (kicad-library-utils/schlib/autogen/connector/)
+K connector
+F http://adam-tech.com/downloader.php?p=PH1-XX-UA.pdf
+$ENDCMP
+#
 $CMP LED
 D Light emitting diode
 K LED diode
