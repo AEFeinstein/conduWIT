@@ -1,15 +1,107 @@
 EESchema-LIBRARY Version 2.4
 #encoding utf-8
 #
+# 10KΩ
+#
+DEF 10KΩ R 0 0 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "10KΩ" -100 0 50 V V C CNN
+F2 "conduWIT_parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" 40 -10 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "RNF14FTD10K0CT-ND" -200 0 50 V I C CNN "Digikey"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -90 0 -100 N
+P 2 0 1 0 0 90 0 100 N
+P 5 0 1 0 0 -30 40 -45 0 -60 -40 -75 0 -90 N
+P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
+P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# 30Ω
+#
+DEF 30Ω R 0 0 N Y 1 F N
+F0 "R" 100 0 50 V V C CNN
+F1 "30Ω" -100 0 50 V V C CNN
+F2 "conduWIT_parts:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" 40 -10 50 V I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "RNMF14FTC30R0CT-ND" -200 0 50 V I C CNN "Digikey"
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+P 2 0 1 0 0 -90 0 -100 N
+P 2 0 1 0 0 90 0 100 N
+P 5 0 1 0 0 -30 40 -45 0 -60 -40 -75 0 -90 N
+P 5 0 1 0 0 30 40 15 0 0 -40 -15 0 -30 N
+P 5 0 1 0 0 90 40 75 0 60 -40 45 0 30 N
+X ~ 1 0 150 50 D 50 50 1 1 P
+X ~ 2 0 -150 50 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# LED
+#
+DEF LED D 0 40 N N 1 F N
+F0 "D" 0 100 50 H V C CNN
+F1 "LED" 0 -100 50 H V C CNN
+F2 "conduWIT_parts:LED_D5.0mm" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+F4 "732-5016-ND" -100 200 50 H I C CNN "Digikey"
+$FPLIST
+ LED*
+ LED_SMD:*
+ LED_THT:*
+$ENDFPLIST
+DRAW
+P 2 0 1 8 -50 -50 -50 50 N
+P 2 0 1 0 -50 0 50 0 N
+P 4 0 1 8 50 -50 50 50 -50 0 50 -50 N
+P 5 0 1 0 -120 -30 -180 -90 -150 -90 -180 -90 -180 -60 N
+P 5 0 1 0 -70 -30 -130 -90 -100 -90 -130 -90 -130 -60 N
+X K 1 -150 0 100 R 50 50 1 1 P
+X A 2 150 0 100 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# PN2222A
+#
+DEF PN2222A Q 0 0 Y N 1 F N
+F0 "Q" 200 75 50 H V L CNN
+F1 "PN2222A" 200 0 50 H V L CNN
+F2 "conduWIT_parts:TO-92_Inline" 200 -75 50 H I L CIN
+F3 "" 0 0 50 H I L CNN
+F4 "PN2222ATACT-ND" 550 -200 50 H I C CNN "Digikey"
+$FPLIST
+ TO?92*
+$ENDFPLIST
+DRAW
+C 50 0 111 0 1 10 N
+P 2 0 1 0 0 0 25 0 N
+P 2 0 1 0 100 -100 25 -25 N
+P 2 0 1 0 100 100 25 25 N
+P 3 0 1 20 25 75 25 -75 25 -75 N
+P 3 0 1 0 95 -95 75 -75 75 -75 N
+P 5 0 1 0 45 -65 65 -45 85 -85 45 -65 45 -65 F
+X E 1 100 -200 100 U 50 50 1 1 P
+X B 2 -200 0 200 R 50 50 1 1 I
+X C 3 100 200 100 D 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # SJ1-2503A
 #
 DEF SJ1-2503A J 0 40 Y N 1 F N
 F0 "J" -200 321 50 H V L BNN
 F1 "SJ1-2503A" -200 -280 50 H V L BNN
-F2 "CUI_SJ1-2503A" 0 0 50 H I L BNN
+F2 "conduWIT_parts:CUI_SJ1-2503A" 0 0 50 H I L BNN
 F3 "" 0 0 50 H I L BNN
-F4 "B" 0 0 50 H I L BNN
-F5 "Manufacturer Recommendation" 0 0 50 H I L BNN
+F4 "CP1-2503A-ND" 0 -350 50 H I C CNN "Digikey"
 DRAW
 P 2 0 0 10 -200 -200 200 -200 N
 P 2 0 0 10 -200 300 -200 -200 N
@@ -47,15 +139,7 @@ F0 "U" -100 340 60 H V R CNN
 F1 "SN74LS08N" 10 -850 60 H V L CNN
 F2 "conduWIT_parts:DIP-14_W3mm" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
-F4 "296-1633-5-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "SN74LS08N" 200 500 60 H I L CNN "MPN"
-F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
-F7 "Logic - Gates and Inverters" 200 700 60 H I L CNN "Family"
-F8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls08" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/texas-instruments/SN74LS08N/296-1633-5-ND/277279" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "IC GATE AND 4CH 2-INP 14DIP" 200 1000 60 H I L CNN "Description"
-F11 "Texas Instruments" 200 1100 60 H I L CNN "Manufacturer"
-F12 "Active" 200 1200 60 H I L CNN "Status"
+F4 "296-1633-5-ND" 200 400 60 H I L CNN "Digikey"
 DRAW
 A -25 -550 25 -899 899 0 1 0 N -25 -575 -25 -525
 A -25 -350 25 -899 899 0 1 0 N -25 -375 -25 -325
@@ -102,15 +186,7 @@ F0 "U" -100 340 60 H V R CNN
 F1 "SN74LS32N" 10 -850 60 H V L CNN
 F2 "conduWIT_parts:DIP-14_W3mm" 200 200 60 H I L CNN
 F3 "" 200 300 60 H I L CNN
-F4 "296-1658-5-ND" 200 400 60 H I L CNN "Digi-Key_PN"
-F5 "SN74LS32N" 200 500 60 H I L CNN "MPN"
-F6 "Integrated Circuits (ICs)" 200 600 60 H I L CNN "Category"
-F7 "Logic - Gates and Inverters" 200 700 60 H I L CNN "Family"
-F8 "http://www.ti.com/general/docs/suppproductinfo.tsp?distId=10&gotoUrl=http%3A%2F%2Fwww.ti.com%2Flit%2Fgpn%2Fsn74ls32" 200 800 60 H I L CNN "DK_Datasheet_Link"
-F9 "/product-detail/en/texas-instruments/SN74LS32N/296-1658-5-ND/277304" 200 900 60 H I L CNN "DK_Detail_Page"
-F10 "IC GATE OR 4CH 2-INP 14DIP" 200 1000 60 H I L CNN "Description"
-F11 "Texas Instruments" 200 1100 60 H I L CNN "Manufacturer"
-F12 "Active" 200 1200 60 H I L CNN "Status"
+F4 "296-1658-5-ND" 200 400 60 H I L CNN "Digikey"
 DRAW
 A -100 -550 35 450 -450 0 1 0 N -75 -525 -75 -575
 A -100 -350 35 450 -450 0 1 0 N -75 -325 -75 -375

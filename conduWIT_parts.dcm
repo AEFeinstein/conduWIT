@@ -1,6 +1,31 @@
 EESchema-DOCLIB  Version 2.0
 #
+$CMP 10KΩ
+D Resistor, US symbol
+K R res resistor
+F https://www.seielect.com/catalog/sei-rnf_rnmf.pdf
+$ENDCMP
+#
+$CMP 30Ω
+D Resistor, US symbol
+K R res resistor
+F https://www.seielect.com/catalog/sei-rnf_rnmf.pdf
+$ENDCMP
+#
+$CMP LED
+D Light emitting diode
+K LED diode
+F https://www.we-online.de/katalog/datasheet/151051RS11000.pdf
+$ENDCMP
+#
+$CMP PN2222A
+D 1A Ic, 40V Vce, NPN Transistor, General Purpose Transistor, TO-92
+K NPN Transistor
+F https://www.onsemi.com/pub/Collateral/PN2222A-D.pdf
+$ENDCMP
+#
 $CMP SJ1-2503A
+D TRS Jack
 F https://www.cuidevices.com/product/resource/sj1-2503a.pdf
 $ENDCMP
 #
