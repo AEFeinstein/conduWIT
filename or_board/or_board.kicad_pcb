@@ -1919,7 +1919,7 @@
   (gr_line (start 142.601845 60.107363) (end 141.571054 59.894808) (layer "Edge.Cuts") (width 0.1) (tstamp f32ad193-f5a0-4d66-a046-a0a6d84b5c93))
   (gr_line (start 143.640116 60.361059) (end 142.601845 60.107363) (layer "Edge.Cuts") (width 0.1) (tstamp f64ccd01-6824-4e08-8f61-7666279d3ce9))
   (gr_line (start 153.84392 84.971113) (end 154.756947 84.355576) (layer "Edge.Cuts") (width 0.1) (tstamp fa8f9fdc-6d39-4a23-9f62-ec1751ee9d16))
-  (gr_text "or_board\n1.0.0\n03/2020" (at 126.873 74.93 90) (layer "B.SilkS") (tstamp 07af8368-c01a-4163-8f8d-7c549c9dec0a)
+  (gr_text "or_board\n1.0.1\n01/2023" (at 126.873 74.93 90) (layer "B.SilkS") (tstamp 07af8368-c01a-4163-8f8d-7c549c9dec0a)
     (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
   )
 
